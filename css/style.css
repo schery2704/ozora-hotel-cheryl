@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Old+Mincho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Zen Old Mincho', serif;
+}
+
+body {
+  background-image: url(../img/background-pink.png);
+}
+
+#wrapper {
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.auto {
+  display: none;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+ 
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.tophotel {
+  position: absolute;
+  top: 100px;
+  padding-left: 80px;
+}
+
+.caption-top{
+  text-align: center;  
+}
+
+.pc-navigator {
+  background: #ffffff;
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  color: black;
+}
+
+#navbar ul{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  list-style: none 
+}
+
+#navbar ul  a:hover{
+    opacity: 0.7;
+}
+
+#menu1{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  background: url(../img/background-whole.png);
+  background-size: 990px;
+  height: 1300px;
+  background-repeat: repeat;
+}
+
+.mySlides1{
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.title1{
+  text-align: center;
+}
+
+.banner1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.menu-banner1{
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-menu1{
+  position: absolute;
+  font-size: 23px;
+  color: #dd4343;
+  align-items: center;
+  padding-left: 220px;
+  padding-bottom: 100px
+}
+
+.button1{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 230px;
+  padding-top: 90px;
+}
+
+.button1 a:hover {
+  opacity: 0.7;
+}
+
+
+#menu2{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  background: url(../img/background-whole.png);
+  background-size: 1000px;
+  height: 990px;
+  background-repeat: no-repeat;
+}
+
+.mySlides2{
+  text-align: center;
+}
+
+
+.banner2{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.text-menu2{
+  position: absolute;
+  font-size: 23px;
+  color: #dd4343;
+  align-items: center;
+  padding-left: 230px;
+  padding-bottom: 100px
+}
+
+.title2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-menu1-1{
+  position: absolute;
+  font-size: 30px;
+  color: #dd4343;
+  align-items: center;
+  padding-left: 227px;
+  padding-bottom: 100px
+}
+
+.title3{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#menu3{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  background: url(../img/background-whole.png);
+  background-size: 990px;
+  height: 2000px;
+  background-repeat: repeat;
+}
+
+.mySlides3{
+  text-align: center;
+}
+
+.text-menu1-3{
+  position: absolute;
+  font-size: 27px;
+  color: #dd4343;
+  align-items: center;
+  padding-left: 260px;
+  padding-bottom: 150px
+}
+  
+.subtext-menu1-3{
+  position: absolute;
+  font-size: 30px;
+  color: #610000;
+  align-items: center;
+  padding-left: 230px;
+  padding-top: 50px
+}
+
+.button1-2{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 230px;
+  padding-top: 200px;
+}
+
+.button1 a:hover {
+  opacity: 0.7;
+}
+
+.subtext-menu2-3{
+  position: absolute;
+  font-size: 30px;
+  color: #610000;
+  align-items: center;
+  padding-left: 230px;
+  padding-top: 50px
+}
+
+#menu4{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  background: url(../img/background-whole.png);
+  background-size: 990px;
+  height: 1800px;
+  background-repeat: repeat;
+}
+
+.title4{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.review{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.banner-review{
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stars{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 170px;
+  padding-bottom: 170px;
+}
+
+.jalan-kuchikomi{
+  position: absolute;
+  font-size: 27px;
+  color: #bb7d0e;
+  align-items: center;
+  padding-left: 450px;
+  padding-bottom: 150px
+}
+
+.note-review1{
+  position: absolute;
+  font-size: 17px;
+  color: #322308;
+  align-items: center;
+  padding-left: 190px;
+  padding-top: 40px
+}
+
+.note-review2{
+  position: absolute;
+  font-size: 14px;
+  color: #322308;
+  align-items: center;
+  padding-left: 190px;
+  padding-top: 150px
+}
+
+.kupon-button{
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kupon-button a:hover {
+  opacity: 0.7;
+}
+
+.kupon-note{
+  font-size: 15px;
+  color: #dd4343;
+  align-items: center;
+  padding-left: 260px;
+  padding-bottom: 150px
+}
+
+.jal{
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jal a:hover {
+  opacity: 0.7;
+}
+
+.ana{
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ana a:hover {
+  opacity: 0.7;
+}
+
+.puran{
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.puran a:hover {
+  opacity: 0.7;
+}
